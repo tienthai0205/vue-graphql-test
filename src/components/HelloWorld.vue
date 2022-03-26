@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Projects</h1>
+    <h1>List of projects</h1>
     <v-simple-table>
       <template v-slot:default>
         <thead>
