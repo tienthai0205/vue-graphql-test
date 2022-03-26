@@ -10,7 +10,7 @@ Vue.use(VueApollo)
 Vue.config.productionTip = false
 const httpLink = createHttpLink({
   // You should use an absolute URL here
-  uri: 'http://localhost:1337/graphql',
+  uri: 'https://strapi-projects-cms.herokuapp.com/graphql',
 })
 
 // Cache implementation
